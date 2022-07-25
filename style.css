@@ -4,9 +4,50 @@
 }
 
 html,
-body {
+body, h2 {
   margin: 0;
   padding: 0;
 }
 
-/* Add styles here! */
+h1 {
+  padding: 24px 0;
+}
+
+.intro-chunk {
+  margin: 48px 0;
+}
+.intro-chunk p {
+  max-width: 320px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 60px 0;
+  border-top: 8px solid hsl(0deg, 0%, 40%)
+}
+
+.max-width-wrapper {
+  max-width: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.card {
+  margin-top: 0;
+  padding: 8px 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  box-shadow: 0 8px hsl(45deg, 100%, 40%);
+  padding: 16px 24px;
+  width: fit-content;
+  margin-left: -24px;
+}
